@@ -37,7 +37,7 @@
 				<p class = "info col l6 s12">{{info.paratwo}}</p>
 			</div>
 
-			<a class="waves-effect waves-light btn valign">See Our Programs</a>
+			<a id = "pro" class="waves-effect waves-light btn valign">See Our Programs</a>
 
 		</div>
 
@@ -50,11 +50,23 @@
 		        <div class="caption {{pro.align}}">
 		          <h3>{{pro.title}}</h3>
 		          <h5 class="light grey-text text-lighten-3">{{pro.description}}</h5>
-		          <a id = "team" class = "waves-effect waves-light btn">Meet Our Team</a>
+		          <a id = "team" class = "waves-effect waves-light btn red">Meet Our Team</a>
 		        </div>
 		      </li>
 		    </ul>
 		  </div>
+
+		<!-- TEAM LISING BLOC !-->
+
+		<div class = "container" id = "team_bloc">
+			<div class = "row">
+				<div class = "col l4 s12 photo_cont" ng-repeat = "ind in team">
+					<img ng-src = "{{ind.team_photo}}" class = "photo responsive-img materialboxed">
+					<h5>{{ind.name}}</h3>
+					<h6>{{ind.title}}</h5>
+				</div>
+			</div>
+		</div>
 
 
 	</div>

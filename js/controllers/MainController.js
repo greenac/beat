@@ -32,4 +32,45 @@ app.controller('MainController', ['$scope', function($scope){
 	}
 	];
 
+	$scope.team = [
+	{
+		name: 'Steven Duval Ruilova',
+		title: 'Co-Founder/CEO',
+		email: 'steven@learnbeat.org',
+		team_photo: 'imgs/headshots/sdr.jpg'
+	},
+	{
+		name: 'Michael Urner',
+		title: 'Co-Founder/CFO',
+		email: 'michael@learnbeat.org',
+		team_photo: 'imgs/headshots/sdr.jpg'
+	},
+	{
+		name: 'Marco Gutierrez',
+		title: 'Director of Technology',
+		email: 'marco@learnbeat.org',
+		team_photo: 'imgs/headshots/sdr.jpg'
+	},
+	{
+		name: 'Sergio Gonzalez',
+		title: 'Director of Agriculture',
+		email: 'sergio@learnbeat.org'
+	},
+	{
+		name: 'Ryan Paw',
+		title: 'President (FQTQ)',
+		email: 'rpaw@ucmerced.edu'
+	},
+	{
+		name: 'Manny Collazo IV',
+		title: 'Media Production Manager',
+		email: '#'
+	},
+	{
+		name: 'Chloe Zimmerman',
+		title: 'Secretary',
+		email: 'info@learnbeat.org'
+	}
+	]
+
 }]);

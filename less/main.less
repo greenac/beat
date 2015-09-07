@@ -37,9 +37,11 @@ html,body{
   		}
   	h1{
   		font-size: 170px;
+      margin-bottom: -15px;
   	}
   	p{
   		font-size: 25px;
+      margin-bottom: 15px;
   	}
     .btn-floating{
       background: inherit;
@@ -79,7 +81,26 @@ html,body{
 
 .slider{
   height: 500px;
+  .slides{
+    background-attachment: fixed;
+  }
+  .btn{
+    background: @beatblue;
+  }
   #team{
     margin-top: 30px;
+  }
+}
+
+//TEAM STYLINGS 
+
+#team_bloc{
+  position: relative;
+  top: 250px;
+  display: block;
+  margin: 0 auto;
+  .photo_cont{
+    text-align: center;
+    margin: 30px 0 30px 0;
   }
 }
