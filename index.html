@@ -19,7 +19,7 @@
 			<div id = "banner_cont">
 				<h1>beat</h1>
 				<p>biology | engineering | agriculture | technology</p>
-				<a href = "#abt"><a class="btn-floating btn-large waves-effect waves-light"><i class = "material-icons">play_for_work</i></a></a>
+				<a id = "ban_down" class="btn-floating btn-large waves-effect waves-light"><i class = "material-icons">play_for_work</i></a>
 			</div>
 		</div>
 
@@ -29,15 +29,41 @@
 
 		<!-- ABOUT CONTAINER BLOCK !-->
 		<div class = "container" id = "about_bloc">
+			<a id = "abt"></a>
 			<h2 class = "valign">{{info.title}}</h2>
 			<div class = "divider"></div>
 			<div class = "row">
 				<p class = "info col l6 s12">{{info.paraone}}</p>
 				<p class = "info col l6 s12">{{info.paratwo}}</p>
-			<button id = "programs"><a class="waves-effect waves-light btn">See Our Programs</a></button>
 			</div>
+
+			<a class="waves-effect waves-light btn valign">See Our Programs</a>
+
 		</div>
+
+		<!-- PROGRAM LISTING BLOC !-->
+
+		  <div class="slider">
+		    <ul class="slides">
+		      <li ng-repeat = "pro in programs">
+		        <img ng-src="{{pro.program_img}}"> <!-- background -->
+		        <div class="caption {{pro.align}}">
+		          <h3>{{pro.title}}</h3>
+		          <h5 class="light grey-text text-lighten-3">{{pro.description}}</h5>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+
+
 	</div>
+
+	
+	
+	
+
+
+
 
 
 	<!-- MODULE !-->
@@ -52,6 +78,8 @@
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script type = "text/javascript" src = "js/particles.js"></script>
 	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type = "text/javascript" src = "js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
 
 	
 

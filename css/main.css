@@ -43,22 +43,23 @@ body {
   top: 50%;
   let: 50%;
   -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 #about_bloc {
-  padding: 50px;
+  padding: 65px;
+  text-align: center;
+}
+#about_bloc a {
+  background: #55a4da;
 }
 #about_bloc .valign {
   text-align: center;
 }
 #about_bloc .info {
-  margin: 20px 0 30px 0;
+  margin: 30px 0 40px 0;
   font-size: 18px;
 }
-#about_bloc #programs {
-  display: block;
-  margin: 0 auto;
-  border: none;
-}
-#about_bloc #programs .btn {
-  background: #55a4da;
+.slider {
+  height: 500px;
 }
