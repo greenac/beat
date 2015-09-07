@@ -87,3 +87,31 @@ body {
   text-align: center;
   margin: 30px 0 30px 0;
 }
+#contact_bloc {
+  position: relative;
+  top: 275px;
+  text-align: center;
+  padding: 30px;
+}
+#contact_bloc .divider {
+  margin-bottom: 35px;
+}
+#contact_bloc h2 {
+  text-align: center;
+}
+#contact_bloc .con {
+  font-size: 18px;
+  margin: 20px;
+}
+#contact_bloc #icon_set {
+  display: inline-block;
+  padding: 20px;
+}
+#contact_bloc #map-canvas {
+  height: 400px;
+  width: 100%;
+  background: #666666;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
