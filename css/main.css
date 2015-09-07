@@ -63,3 +63,6 @@ body {
 .slider {
   height: 500px;
 }
+.slider #team {
+  margin-top: 30px;
+}
