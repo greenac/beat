@@ -1,0 +1,25 @@
+{
+  "name": "beat",
+  "version": "1.0.0",
+  "description": "learnbeat.org frontend",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sduval215/beat.git"
+  },
+  "author": "SDR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sduval215/beat/issues"
+  },
+  "homepage": "https://github.com/sduval215/beat#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1"
+  }
+}
